@@ -24,7 +24,7 @@ var elem = document.querySelectorAll(".elem")
         val.childNodes[3].style.opacity = 0
         
     })
-    val.addEventListener("mouseleave",function(dets){
+    val.addEventListener ("mouseleave",function(dets){
         val.childNodes[3].style.left = dets.x+"px"
         
     })
